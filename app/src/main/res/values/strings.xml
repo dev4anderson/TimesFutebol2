@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TimesFutebol</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="times_futebol">Times Futebol</string>
+    <string name="email">futebol@zayo.com</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_1">57c49ba10f00007111b50c00</string>
+    <string name="tab_2">57c49ba10f00007111b50c00</string>
+    <string name="tab_1_text">Futebol1</string>
+    <string name="tab_2_text">Futebol2</string>
+</resources>
