@@ -13,11 +13,11 @@ import com.example.andersonmacedo.timesfutebol.fragments.TimesFragment;
  * Created by andersonmacedo on 27/11/16.
  */
 
-public class TabsAdapter extends FragmentStatePagerAdapter{
+public class TabsAdapter extends FragmentStatePagerAdapter {
 
-    public static final int TOTAL_TABS = 2;
+    public static final int TOTAL_TABS = 1;
 
-    public TabsAdapter(FragmentManager fm){
+    public TabsAdapter(FragmentManager fm) {
         super(fm);
     }
 
@@ -28,13 +28,8 @@ public class TabsAdapter extends FragmentStatePagerAdapter{
         Bundle args = new Bundle();
 
 
-        if (position ==  0 ){
-            args.putString( "tipo" , "57c49ba10f00007111b50c00");
+        args.putString("tipo", "57c49ba10f00007111b50c00");
 
-        } else if (position ==  1 ) {
-            args.putString( "tipo" , "57c49ba10f00007111b50c00");
-
-        }
 
         Fragment f = new TimesFragment();
         f.setArguments(args);
